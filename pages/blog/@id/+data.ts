@@ -2,7 +2,6 @@ export { data };
 
 export type Data = Awaited<ReturnType<typeof data>>;
 
-import fetch from "node-fetch";
 import type { Post } from "../type";
 import type { PageContextServer } from "vike/types";
 

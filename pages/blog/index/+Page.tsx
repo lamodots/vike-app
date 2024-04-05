@@ -3,6 +3,7 @@ export default Page;
 import { useState } from "react";
 import { useData } from "../../../renderer/useData";
 import { Data } from "./+data";
+
 function Page() {
   const [loadmore, setLoadMore] = useState(20);
   const { postsData } = useData<Data>();

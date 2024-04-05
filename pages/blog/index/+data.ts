@@ -4,7 +4,7 @@ export type Data = Awaited<ReturnType<typeof data>>;
 
 // The node-fetch package (which only works on the server-side) can be used since
 // this file always runs on the server-side, see https://vike.dev/data#server-side
-import fetch from "node-fetch";
+
 import type { Post } from "../type";
 import type { PageContextServer } from "vike/types";
 
